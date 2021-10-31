@@ -22,11 +22,12 @@ else {
 }
 
 $GLOBALS["START_MESSAGE"] = <<<EOM
-Thank you for using me 
+Terimakasih
 
-<u><b>you can forward me any media message</b></u>, and <b><i>I might help you to create a PUBlic link</i></b>.
+<u><b>Anda dapat meneruskan pesan media apapun kepada saya</b></u>, dan <b><i>saya dapat membantu Anda membuat Link publik</i></b>.
+example : https://t.me/fileawan_bot?start=view_46_tg
 
-Subscribe ℹ️ @mboyzt if you ❤️ using this bot!
+Subscribe @mboyzt jika anda ingin menggunakan bot ini!
 EOM;
 $GLOBALS["CHECKING_MESSAGE"] = "Proses 🔄";
 require_once __DIR__ . "/../vendor/autoload.php";
